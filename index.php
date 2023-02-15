@@ -29,7 +29,7 @@
 
     <body class="d-flex flex-column min-vh-100">
         
-        <span id="forkongithub"><a href="https://github.com/adhirsaurio/">Fork me on GitHub</a></span>
+        <span id="forkongithub"><a href="https://github.com/adhirsaurio/dropdown-with-search-box">Fork me on GitHub</a></span>
         
         <div class="container">
             <h1 class="mt-2 text-center text-primary mb-5">Bootstrap 5 select dropdown with search box using Dselect & PHP</h1>
