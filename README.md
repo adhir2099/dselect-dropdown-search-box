@@ -1,6 +1,6 @@
 ![PHP](https://img.shields.io/badge/php-8-brightgreen)
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-ff69b4)
-![Bootstrap](https://img.shields.io/badge/bootstrap-4.5-blue)
+![Bootstrap](https://img.shields.io/badge/bootstrap-5.2.3-blue)
 ![Jquery](https://img.shields.io/badge/jquery-3.5.1-orange)
 
 # Select dropdown with search box using Dselect & PHP
@@ -18,6 +18,38 @@ There is the schema for the table.
         `country_name` varchar(100) NOT NULL DEFAULT '',
         PRIMARY KEY (`id`)
     ) ENGINE=MyISAM AUTO_INCREMENT=246 DEFAULT CHARSET=utf8;
+</code>
+
+# Config parameters
+
+<code>
+const config = {
+    search: false, // Toggle search feature. Default: false
+    creatable: false, // Creatable selection. Default: false
+    clearable: false, // Clearable selection. Default: false
+    maxHeight: '360px', // Max height for showing scrollbar. Default: 500px
+    size: '', // Can be "sm" or "lg". Default ''
+}
+
+dselect(document.querySelector('#select_box'), config)
+</code>
+
+or like this:
+
+<code>
+    dselect(select_box_element, {
+        search: true,
+        creatable: false,
+        maxHeight: '360px'
+    });
+</code>
+
+Parameters can also be set in "data-dselect-*" attribute:
+
+<code>
+    <select data-dselect-search="true" data-dselect-creatable="true" data-dselect-clearable="true" data-dselect-max-height="500px" data-dselect-size="lg" class="form-select" id="select_box">
+        <option value="">Select country</option>
+    </select>
 </code>
 
 ## Libraries included
