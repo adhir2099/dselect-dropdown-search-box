@@ -11,18 +11,18 @@ Bootstrap 5 select dropdown using dselect to search through the dropdown.
 
 There is the schema for the table.
 
-<code>
+```sql
     CREATE TABLE `countries` (
         `id` int(11) NOT NULL AUTO_INCREMENT,
         `country_code` varchar(2) NOT NULL DEFAULT '',
         `country_name` varchar(100) NOT NULL DEFAULT '',
         PRIMARY KEY (`id`)
     ) ENGINE=MyISAM AUTO_INCREMENT=246 DEFAULT CHARSET=utf8;
-</code>
+```
 
 # Config parameters
 
-<code>
+```javascript
 const config = {
     search: false, // Toggle search feature. Default: false
     creatable: false, // Creatable selection. Default: false
@@ -32,25 +32,25 @@ const config = {
 }
 
 dselect(document.querySelector('#select_box'), config)
-</code>
+```
 
 or like this:
 
-<code>
+```javascript
     dselect(select_box_element, {
         search: true,
         creatable: false,
         maxHeight: '360px'
     });
-</code>
+```
 
 Parameters can also be set in "data-dselect-*" attribute:
 
-<code>
+```html
     <select data-dselect-search="true" data-dselect-creatable="true" data-dselect-clearable="true" data-dselect-max-height="500px" data-dselect-size="lg" class="form-select" id="select_box">
         <option value="">Select country</option>
     </select>
-</code>
+```
 
 ## Libraries included
 * Bootstrap v5.2.3
