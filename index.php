@@ -5,13 +5,13 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Bootstrap 5 select dropdown with search box using Dselect & PHP8</title>
+        <title>Select dropdown with search box using Dselect & PHP8</title>
         
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Adhir2099" />
-        <meta name="description" content="Bootstrap 5 select dropdown with search box using Dselect & PHP" />
+        <meta name="description" content="Select dropdown with search box using Dselect & PHP" />
 
         <!-- Bootstrap v5.2.3-->
         <link href="assets/css/bootstrapv5.css" rel="stylesheet"/>
@@ -32,7 +32,7 @@
         <span id="forkongithub"><a href="https://github.com/adhir2099/dropdown-with-search-box">Fork me on GitHub</a></span>
         
         <div class="container">
-            <h1 class="mt-2 text-center text-primary mb-5">Bootstrap 5 select dropdown with search box using Dselect & PHP</h1>
+            <h1 class="mt-2 text-center text-primary mb-5">Select dropdown with search box using Dselect & PHP</h1>
             <div class="row">
                 <div class="col-md-3">&nbsp;</div>
                 <div class="col-md-6">
@@ -53,14 +53,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="lead mb-0">Bootstrap 5 Select dropdown with search box using Dselect & PHP8 <a href="https://github.com/adhir2099?tab=repositories"><i class="bi bi-github"></i></a></p>
+                        <p class="lead mb-0">Select dropdown with search box using Dselect & PHP8 <a href="https://github.com/adhir2099/dselect-dropdown-search-box"><i class="bi bi-github"></i></a></p>
                     </div>
                 </div>
             </div>
         </footer>
 
         <div class="copyright py-4 text-center text-black bg-primary">
-            <div class="container"><small>Bootstrap 5 Select dropdown with search box using Dselect & PHP8</small></div>
+            <div class="container"><small>Select dropdown with search box using Dselect & PHP8</small></div>
         </div>
 
     </body>

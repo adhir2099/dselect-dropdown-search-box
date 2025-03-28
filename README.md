@@ -4,7 +4,7 @@
 ![Jquery](https://img.shields.io/badge/jquery-3.5.1-orange)
 
 # Select dropdown with search box using Dselect & PHP
-Bootstrap 5 select dropdown using dselect to search through the dropdown.
+Select dropdown using dselect to search through the dropdown.
 
 # Database 
 * countries.sql
@@ -68,7 +68,7 @@ Parameters can also be set in "data-dselect-*" attribute:
 </p>
 
 ## Libraries included
-* Bootstrap v5.2.3
+* Bootstrap v5.3.3
 * Jquery v3.5.1
 * Dselect
 
